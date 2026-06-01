@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby18 -wKU
+	<string>#!/usr/bin/env ruby -w
 print STDIN.read.unpack("U*").map { |e| sprintf('0x%02x', e) }.join(' ')</string>
 	<key>fallbackInput</key>
 	<string>character</string>
